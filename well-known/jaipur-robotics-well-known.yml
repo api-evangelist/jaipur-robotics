@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://jaipurrobotics.com/.well-known/
+host: https://jaipurrobotics.com
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: jaipur-robotics-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Only /.well-known/security.txt is published (on the apex marketing host).
+  The gated app host app.jaipurrobotics.com serves an SPA index.html shell
+  (HTTP 200, 1705 bytes) for every /.well-known/ path, so none of those are
+  genuine discovery documents and are not recorded here.

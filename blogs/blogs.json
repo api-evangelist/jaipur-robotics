@@ -1,0 +1,18 @@
+{
+  "repo": "jaipur-robotics",
+  "feeds": [
+    {
+      "source": "https://jaipurrobotics.com/feed/",
+      "feed_url": "https://jaipurrobotics.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://jaipurrobotics.com/",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-07-25T15:00:33Z"
+}

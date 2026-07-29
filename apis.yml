@@ -1,7 +1,28 @@
 aid: jaipur-robotics
 name: Jaipur Robotics
-description: Jaipur Robotics is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Jaipur Robotics is a Manno, Switzerland based deep-tech company building advanced
+  computer vision and deep learning solutions for the waste-to-energy sector. Its
+  product, Jaipur Intelligence, applies patent-pending image recognition to plant
+  bunkers and truck unloading bays to detect oversized and dangerous items, map the
+  calorific value (LHV) of incoming waste in real time, and track crane operations —
+  helping operators cut emissions, improve waste mixing and combustion stability, and
+  minimize unplanned shutdowns. The company operates a gated customer application at
+  app.jaipurrobotics.com and is backed by Techstars, Innosuisse, Venture Kick, CSEM and
+  others. It currently publishes a marketing site and a customer login only; there is no
+  public developer portal, API reference, SDK, or machine-readable API specification.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://jaipurrobotics.com/wp-content/uploads/2025/01/JR_Logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/jaipur-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Computer Vision
+- Robotics
+- Waste-to-Energy
+- Artificial Intelligence
+- Deep Learning
+- Sustainability
+- Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/jaipur-robotics-vulnerability-disclosure.yml
+- type: Security
+  url: https://jaipurrobotics.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/jaipur-robotics-domain-security.yml
+- type: WellKnown
+  url: well-known/jaipur-robotics-well-known.yml
+- type: SecurityTxt
+  url: well-known/jaipur-robotics-security.txt
 - type: Website
   url: https://jaipurrobotics.com/
+- type: Blog
+  url: https://jaipurrobotics.com/news/
+- type: Support
+  url: https://jaipurrobotics.com/contact-us/
+- type: Login
+  url: https://app.jaipurrobotics.com/
+- type: PrivacyPolicy
+  url: https://jaipurrobotics.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

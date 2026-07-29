@@ -1,0 +1,5 @@
+Contact: mailto:info@jaipurrobotics.com
+Expires: 2027-03-24T18:30:00.000Z
+Preferred-Languages: en
+Canonical: https://jaipurrobotics.com/.well-known/security.txt
+Hiring: https://jaipurrobotics.com/careers/
