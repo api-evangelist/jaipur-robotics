@@ -11,6 +11,17 @@ description: >-
   app.jaipurrobotics.com and is backed by Techstars, Innosuisse, Venture Kick, CSEM and
   others. It currently publishes a marketing site and a customer login only; there is no
   public developer portal, API reference, SDK, or machine-readable API specification.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
