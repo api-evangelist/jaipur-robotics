@@ -46,7 +46,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Computer-Vision
+- Computer Vision
 - Robotics
 - Waste-to-Energy
 - Artificial Intelligence
@@ -62,6 +62,7 @@ tags_raw:
 - Deep Learning
 - Sustainability
 - Energy
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
